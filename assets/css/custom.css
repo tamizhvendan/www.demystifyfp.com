@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url("https://fonts.googleapis.com/css?family=Source+Code+Pro") format('truetype');
+}
+
+pre code {
+  font-family: 'Source Code Pro', Consolas, monaco, monospace !important;
+  font-size: 0.9rem !important;
+  line-height: 1.4rem;
+}
+
+.hljs-deletion {
+  color: #b31d28 !important;
+}
+
+.hljs-addition {
+  color: #22863a !important;
+}
+
+
+.rbl1 {
+  color: #ccc !important;
+}
+
+.rbl2 {
+  color: #0098e6 !important;
+}
+
+.rbl3 {
+  color: #e16d6d !important;
+}
+
+.rbl4 {
+  color: #3fa455 !important;
+}
+
+.rbl5 {
+  color: #c968e6 !important;
+}
+
+.rbl6 {
+  color: #999999 !important;
+}
+
+.rbl7 {
+  color: #E69F00 !important;
+}
+
+.rbl8 {
+  color: #56B4E9 !important;
+}
+
+.rbl9 {
+  color: #009E73 !important;
+}
+
+.rbl10 {
+  color: #F0E442 !important;
+}
+
+.rbl11 {
+  color: #0072B2 !important;
+}
+
+.rbl12 {
+  color: #CC79A7 !important;
+}

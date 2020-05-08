@@ -25,9 +25,9 @@ subtitle = ""
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
+    tag = "clojure"
+    category = "post"
+    publication_type = "post"
     author = ""
     exclude_featured = false
   
