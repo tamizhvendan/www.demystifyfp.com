@@ -2,6 +2,8 @@
 title: "Introducing FsConfig"
 date: 2018-02-06T19:48:26+05:30
 tags: ["fsharp", "open-source", "FsConfig"]
+type: "post"
+reading_time: true
 ---
 
 I am delighted to introduce a new F# library, [FsConfig](https://github.com/demystifyfp/FsConfig). FsConfig is a F# library for reading configuration data from environment variables and AppSettings with type safety

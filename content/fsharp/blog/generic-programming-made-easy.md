@@ -2,6 +2,8 @@
 title: "Generic Programming Made Easy"
 date: 2017-12-15T19:39:26+05:30
 tags: ["fsharp", "reflection", "TypeShape", "generics"]
+type: "post"
+reading_time: true
 ---
 
 Generic programming is a style of computer programming in which algorithms are written in terms of types to-be-specified-later that are then instantiated when needed for specific types provided as parameters[^1]. 

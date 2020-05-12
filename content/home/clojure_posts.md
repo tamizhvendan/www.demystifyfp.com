@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Recent Posts"
+title = "Recent Clojure Posts"
 subtitle = ""
 
 [content]
@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 3
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -26,8 +26,8 @@ subtitle = ""
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = "clojure"
-    category = "post"
-    publication_type = "post"
+    category = ""
+    publication_type = ""
     author = ""
     exclude_featured = false
   

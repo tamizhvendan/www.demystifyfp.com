@@ -2,6 +2,8 @@
 title: "RESTful CRUD APIs Using Compojure-API and Toucan (Part-2)"
 date: 2018-10-18T01:17:17+05:30
 tags: ["clojure", "compojure-api", "toucan"]
+type: "post"
+reading_time: true
 ---
 
 Hi,

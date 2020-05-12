@@ -2,6 +2,8 @@
 title: "Implementing API Gateway Pattern in fsharp using Hopac"
 date: 2018-03-05T19:16:02+05:30
 tags : ["fsharp", "Hopac", "concurrent-programming"]
+type: "post"
+reading_time: true
 ---
 
 Two years back, I wrote [a blog post](http://blog.tamizhvendan.in/blog/2015/12/29/implementing-api-gateway-in-f-number-using-rx-and-suave/) on how to implement [the API Gateway pattern](https://www.nginx.com/blog/building-microservices-using-an-api-gateway) using [Reactive Extensions](http://reactivex.io/)(Rx). In this third part of concurrent programming in fsharp using Hopac blog series, we are going to revisit that blog post and port it to use Hopac instead of Reactive Extensions.

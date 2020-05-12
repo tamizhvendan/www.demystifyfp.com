@@ -2,6 +2,8 @@
 title: "Configuring Logging Using Timbre"
 date: 2019-10-02T05:50:01+05:30
 tags: ["clojure", "Timbre"]
+type: "post"
+reading_time: true
 ---
 
 In the first two blog posts of the blog series [Building an E-Commerce Marketplace Middleware in Clojure]({{<relref "intro.md">}}), we learnt how to bootstrap a Clojure project using [Mount](https://github.com/tolitius/mount) & [Aero](https://github.com/juxt/aero) and how to configure database connection pooling & database migration along with reloaded workflow. We are going to continue setting up the infrastructure, and in this blog post, we are going to take up logging using [Timbre](https://github.com/ptaoussanis/timbre). 

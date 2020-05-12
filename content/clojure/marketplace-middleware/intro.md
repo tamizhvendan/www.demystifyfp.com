@@ -2,6 +2,8 @@
 title: "Building an E-Commerce Marketplace Middleware in Clojure"
 date: 2019-07-26T12:42:03+05:30
 tags: ["clojure"]
+type: "post"
+reading_time: true
 ---
 
 [We](https://www.ajira.tech) recently built an e-commerce marketplace middleware for a leading retail chain for consumer electronics & durables. The middleware enables them to sell their products on multiple e-commerce sites seamlessly.

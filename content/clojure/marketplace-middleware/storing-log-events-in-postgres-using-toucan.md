@@ -2,6 +2,8 @@
 title: "Storing Log Events in Postgres Using Toucan"
 date: 2019-10-04T17:55:02+05:30
 tags: ["clojure", "Toucan", "Timbre"]
+type: "post"
+reading_time: true
 ---
 
 In the last blog post, we configured Timbre to log the events in the Console. In this blog post, we are going to add a database appender to persist the domain level events alone in Postgres using [Toucan](https://github.com/metabase/toucan).

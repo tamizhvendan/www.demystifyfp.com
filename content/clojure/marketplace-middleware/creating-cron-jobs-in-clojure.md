@@ -2,6 +2,9 @@
 title: "Creating Cron Jobs in Clojure"
 date: 2019-10-22T21:34:42+05:30
 tags: ["clojure"]
+reading_time: true
+type: "post"
+reading_time: true
 ---
 
 In the [last blog post]({{<relref "ranging-items-in-marketplaces.md">}}), we processed the messages from IBM-MQ and relayed the information to the marketplace. In this blog post, we are going to focus on adding cron jobs to our existing infrastructure. The cron jobs pull the data from the marketplace, perform some transformation and send it to the Order Management System(OMS) via IBM-MQ.
@@ -9,6 +12,8 @@ In the [last blog post]({{<relref "ranging-items-in-marketplaces.md">}}), we pro
 > This blog post is a part 8 of the blog series [Building an E-Commerce Marketplace Middleware in Clojure]({{<relref "intro.md">}}).
 
 We will be following the [Functional Core, Imperative Shell](https://www.destroyallsoftware.com/talks/boundaries) technique in this implementation as well by keeping the Cron job infrastructure at the application boundary.
+
+{{% toc %}}
 
 ## Leveraging Quartzite
 

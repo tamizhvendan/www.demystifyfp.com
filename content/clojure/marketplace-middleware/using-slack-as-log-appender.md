@@ -2,6 +2,8 @@
 title: "Using Slack as Log Appender"
 date: 2019-10-06T20:25:41+05:30
 tags: ["clojure", "Timbre"]
+type: "post"
+reading_time: true
 ---
 
 The back-office team of our client has an active slack based workflow for most of their systems. As this middleware is going to be another system that they need to keep track of, they asked us to send messages on Slack if the middleware encounters an error during its operation. In this blog post, I am going to share how we did it in Clojure using Timbre.

@@ -2,7 +2,8 @@
 title = "Using Clojure in Production"
 date = 2018-09-26T11:25:01+05:30
 tags = ["clojure"]
-
+type = "post"
+reading_time = true
 [header]
 image = "clojure/blog/clj-in-prod/cover.png"
 +++

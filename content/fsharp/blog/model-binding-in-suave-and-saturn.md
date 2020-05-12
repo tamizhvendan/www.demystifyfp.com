@@ -2,6 +2,8 @@
 title: "Model Binding in Suave and Saturn"
 date: 2018-12-17T20:50:23+05:30
 tags: ["fsharp", "suave", "saturn"]
+type: "post"
+reading_time: true
 ---
 
 In one of the fsharp project that I was part of in early this year, we encountered an interesting scenario where we need to do serialisation of a fsharp record type from the query string (and multi-part form) in [Suave](https://www.suave.io), and the out of the box model binding support didn't suit our requirements. 

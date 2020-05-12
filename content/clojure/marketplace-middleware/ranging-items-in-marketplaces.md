@@ -2,6 +2,8 @@
 title: "Ranging Items In E-Commerce Marketplaces"
 date: 2019-10-18T20:58:27+05:30
 tags: ["clojure"]
+type: "post"
+reading_time: true
 ---
 
 In this seventh part of the blog series [Building an E-Commerce Marketplace Middleware in Clojure]({{<relref "intro.md">}}), I am going to share how we captured a business operation from the client's Order Management System(OMS) processed it in a marketplace. 
@@ -16,6 +18,8 @@ This blog post is going to be a long one. So, here is a sneak preview of what we
 * More Clojure.Spec (and multi-spec) and asserting the public function parameters using it.
 * XML Parsing & Validation
 * Persisting JSON data in PostgreSQL using Toucan and much more.
+
+{{% toc %}}
 
 ### Unified Message Handling
 
